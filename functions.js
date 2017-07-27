@@ -2,19 +2,19 @@ $(window).scroll(function(){
 
   var wScroll = $(this).scrollTop();
 
-  $('.Blue').css({
+  $('.clue').css({
     'transform' : 'translate(0px, '+ wScroll /2 +'%)'
   });
 
-  $('.Purple').css({
+  $('.purple').css({
     'transform' : 'translate(0px, '+ wScroll /4 +'%)'
   });
 
-  $('.Yellow').css({
+  $('.yellow').css({
     'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
   });
   
-  $('.Orange').css({
+  $('.orange').css({
     'transform' : 'translate(0px, -'+ wScroll /12 +'%)'
   });
 
