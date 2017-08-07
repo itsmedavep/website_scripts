@@ -24,7 +24,8 @@ $(window).scroll(function(){
 
 */
 
-if ( document.URL.contains("case-study-sony-catalyst-editing-suite") ) {
+$(document).ready(function(){
+    if ( document.URL.contains("case-study-sony-catalyst-editing-suite") ) {
     //Code here
   
   var $target1 = $('#testingbg_1');
@@ -125,3 +126,6 @@ if ( document.URL.contains("case-study-sony-catalyst-editing-suite") ) {
   		$target9.css('background-color', ('#ffffff'));
  });
 }
+});
+
+
