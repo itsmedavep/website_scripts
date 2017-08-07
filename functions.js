@@ -125,6 +125,7 @@ $(document).ready(function(){
   inView('#testingbg_9').on('exit', function(el){
   		$target9.css('background-color', ('#ffffff'));
  });
+      }
 });
 
 
