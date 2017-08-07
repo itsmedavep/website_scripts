@@ -1,3 +1,5 @@
+/*
+
 $(window).scroll(function(){
 
   var wScroll = $(this).scrollTop();
@@ -19,6 +21,8 @@ $(window).scroll(function(){
   });
 
 });
+
+*/
 
 if ( document.URL.contains("case-study-sony-catalyst-editing-suite") ) {
     //Code here
