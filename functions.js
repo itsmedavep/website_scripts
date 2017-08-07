@@ -125,6 +125,6 @@ $(document).ready(function(){
   		$target9.css('background-color', ('#ffffff'));
  });
       
-};
+});
 
 
