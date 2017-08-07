@@ -25,7 +25,6 @@ $(window).scroll(function(){
 */
 
 $(document).ready(function(){
-    if ( document.URL.contains("case-study-vegas-pro-companion") ) {
     //Code here
   
   var $target1 = $('#testingbg_1');
@@ -125,7 +124,7 @@ $(document).ready(function(){
   inView('#testingbg_9').on('exit', function(el){
   		$target9.css('background-color', ('#ffffff'));
  });
-      }
-});
+      
+};
 
 
