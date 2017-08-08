@@ -50,6 +50,8 @@ $(document).ready(function(){
     
     $target10.css('background-color', (pagecolor2["background-color"]));
   
+    
+    /*
     inView('#testingbg_1').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
   		$target10.css('background-color', color);
@@ -58,6 +60,8 @@ $(document).ready(function(){
     inView('#testingbg_1').on('exit', function(el){
   		$target10.css('background-color', ('transparent'));
  });
+ 
+ */
     
   }
   
