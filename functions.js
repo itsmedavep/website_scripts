@@ -55,11 +55,11 @@ $(document).ready(function(){
     
     inView('#testingbg_1').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
-  		$target10.css('background-color', color);
+  		$target1.css('background-color', color);
  }); 
   
   inView('#testingbg_1').on('exit', function(el){
-  		$target10.css('background-color', ('transparent'));
+  		$target1.css('background-color', ('transparent'));
  });
     
     console.log('You are getting to the page2 color');
