@@ -55,7 +55,7 @@ $(document).ready(function(){
     
     console.log('You are getting to the page2 color');
     
-  } else (window.location.pathname == "/case-study-vegas-pro-companion") {
+  } else if (window.location.pathname == "/case-study-vegas-pro-companion") {
   
     // Yellow BG
     var pagecolor1 = "#f7e610";
