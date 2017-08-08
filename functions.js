@@ -43,7 +43,7 @@ $(document).ready(function(){
   // Orange BG
   var pagecolor2 = {'color' : '#f15a29', 'background-color': '#f15a29'};
   // Blue BG
-  var pagecolor2 = {'color' : '#38a4dd', 'background-color': '#38a4dd'};
+  var pagecolor3 = {'color' : '#38a4dd', 'background-color': '#38a4dd'};
   
   
   if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
@@ -154,99 +154,58 @@ $(document).ready(function(){
     
     console.log('You are getting to the page1 color');
   
-  } 
+  } else {
   
+     // Blue BG
+    var pagecolor3 = "#38a4dd";
+    
+    $target10.css('background-color', pagecolor3);
   
-  //inView.offset(100);
- 
-  /*
-  
-  inView('#testingbg_1').on('enter', function(el){
+    inView('#testingbg_1').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
-  		$target10.css('background-color', color);
+  		$target1.css('background-color', color);
  }); 
   
   inView('#testingbg_1').on('exit', function(el){
-  		$target10.css('background-color', ('transparent'));
- }); 
-  
-  inView('#testingbg_2').on('enter', function(el){
-  		var color = $(el).attr('data-background-color');
-  		$target10.css('background-color', color);
- }); 
-  
-  inView('#testingbg_2').on('exit', function(el){
-  		$target10.css('background-color', ('#ffffff'));
+  		$target1.css('background-color', ('transparent'));
  });
-  
-  inView('#testingbg_3').on('enter', function(el){
+    
+    inView('#testingbg_3').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
-  		$target10.css('background-color', color);
+  		$target3.css('background-color', color);
  }); 
   
   inView('#testingbg_3').on('exit', function(el){
-  		$target10.css('background-color', ('#f7e610'));
- }); 
-  
-  inView('#testingbg_4').on('enter', function(el){
-  		var color = $(el).attr('data-background-color');
-  		$target10.css('background-color', color);
-    	$target10.css('background-color', color);
- }); 
-  
-  inView('#testingbg_4').on('exit', function(el){
-  		$target4.css('background-color', ('#f7e610'));
+  		$target3.css('background-color', ('transparent'));
  });
-  
-  inView('#testingbg_5').on('enter', function(el){
+    
+    inView('#testingbg_5').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
   		$target5.css('background-color', color);
-    	$target4.css('background-color', color);
  }); 
   
   inView('#testingbg_5').on('exit', function(el){
-  		$target5.css('background-color', ('#f7e610'));
-    	
- }); 
-  
-  inView('#testingbg_6').on('enter', function(el){
-  		var color = $(el).attr('data-background-color');
-  		$target6.css('background-color', color);
- }); 
-  
-  inView('#testingbg_6').on('exit', function(el){
-  		$target6.css('background-color', ('#ffffff'));
+  		$target5.css('background-color', ('transparent'));
  });
-  
-  inView('#testingbg_7').on('enter', function(el){
+    
+    inView('#testingbg_7').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
   		$target7.css('background-color', color);
  }); 
   
   inView('#testingbg_7').on('exit', function(el){
-  		$target7.css('background-color', ('#f7e610'));
+  		$target7.css('background-color', ('transparent'));
  });
-  
-  inView('#testingbg_8').on('enter', function(el){
-  		var color = $(el).attr('data-background-color');
-  		$target8.css('background-color', color);
- }); 
-  
-  inView('#testingbg_8').on('exit', function(el){
-  		$target8.css('background-color', ('#f7e610'));
- });
-  
-  inView('#testingbg_9').on('enter', function(el){
+    
+    inView('#testingbg_9').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
   		$target9.css('background-color', color);
  }); 
   
   inView('#testingbg_9').on('exit', function(el){
-  		$target9.css('background-color', ('#ffffff'));
+  		$target9.css('background-color', ('transparent'));
  });
-  
-  */
-      
+  }      
 });
 
 
