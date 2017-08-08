@@ -38,40 +38,65 @@ $(document).ready(function(){
   var $target9 = $('#testingbg_9');
   var $target10 = $('.wrapper');
   
+  // Yellow BG
+  var pagecolor1 = {'color' : '#f7e610', 'background-color': '#f7e610'};
+  // Orange BG
+  var pagecolor2 = {'color' : '#f15a29', 'background-color': '#f15a29'};
+  // Blue BG
+  var pagecolor2 = {'color' : '#38a4dd', 'background-color': '#38a4dd'};
+  
+  
+  if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
+    
+    $target10.css('background-color', pagecolor.css('background-color'))
+  
+    inView('#testingbg_1').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target10.css('background-color', color);
+ }); 
+    
+    inView('#testingbg_1').on('exit', function(el){
+  		$target10.css('background-color', ('transparent'));
+ });
+    
+  }
+  
+  
   //inView.offset(100);
  
+  /*
   
   inView('#testingbg_1').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
-  		$target1.css('background-color', color);
+  		$target10.css('background-color', color);
  }); 
   
   inView('#testingbg_1').on('exit', function(el){
-  		$target1.css('background-color', ('#f7e610'));
+  		$target10.css('background-color', ('transparent'));
  }); 
   
   inView('#testingbg_2').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
-  		$target2.css('background-color', color);
+  		$target10.css('background-color', color);
  }); 
   
   inView('#testingbg_2').on('exit', function(el){
-  		$target2.css('background-color', ('#ffffff'));
+  		$target10.css('background-color', ('#ffffff'));
  });
   
   inView('#testingbg_3').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
-  		$target3.css('background-color', color);
+  		$target10.css('background-color', color);
  }); 
   
   inView('#testingbg_3').on('exit', function(el){
-  		$target3.css('background-color', ('#f7e610'));
+  		$target10.css('background-color', ('#f7e610'));
  }); 
   
   inView('#testingbg_4').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
-  		$target4.css('background-color', color);
-    	$target5.css('background-color', color);
+  		$target10.css('background-color', color);
+    	$target10.css('background-color', color);
  }); 
   
   inView('#testingbg_4').on('exit', function(el){
@@ -124,6 +149,8 @@ $(document).ready(function(){
   inView('#testingbg_9').on('exit', function(el){
   		$target9.css('background-color', ('#ffffff'));
  });
+  
+  */
       
 });
 
