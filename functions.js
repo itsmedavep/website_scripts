@@ -50,7 +50,7 @@ $(document).ready(function(){
     // Orange BG
     var pagecolor2 = "#f15a29";
     
-    $target10.css('background-color', pageColor2);
+    $target10.css('background-color', pagecolor2);
     
     console.log('You are getting to the page color');
   
