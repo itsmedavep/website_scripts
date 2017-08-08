@@ -47,27 +47,24 @@ $(document).ready(function(){
   
   
   if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
+    
     // Orange BG
     var pagecolor2 = "#f15a29";
     
     $target10.css('background-color', pagecolor2);
     
-    console.log('You are getting to the page color');
+    console.log('You are getting to the page2 color');
+    
+  } else (window.location.pathname == "/case-study-vegas-pro-companion") {
   
+    // Yellow BG
+    var pagecolor1 = "#f7e610";
     
-    /*
-    inView('#testingbg_1').on('enter', function(el){
-  		var color = $(el).attr('data-background-color');
-  		$target10.css('background-color', color);
- }); 
+    $target10.css('background-color', pagecolor1);
     
-    inView('#testingbg_1').on('exit', function(el){
-  		$target10.css('background-color', ('transparent'));
- });
- 
- */
-    
-  }
+    console.log('You are getting to the page1 color');
+  
+  } 
   
   
   //inView.offset(100);
