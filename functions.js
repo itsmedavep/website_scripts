@@ -53,6 +53,15 @@ $(document).ready(function(){
     
     $target10.css('background-color', pagecolor2);
     
+    inView('#testingbg_1').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target10.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_1').on('exit', function(el){
+  		$target10.css('background-color', ('transparent'));
+ });
+    
     console.log('You are getting to the page2 color');
     
   } else if (window.location.pathname == "/case-study-vegas-pro-companion") {
