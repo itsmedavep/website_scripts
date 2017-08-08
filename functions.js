@@ -47,8 +47,10 @@ $(document).ready(function(){
   
   
   if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
+    // Orange BG
+    var pagecolor2 = "#f15a29";
     
-    $target10.css('background-color', ('#f15a29'));
+    $target10.css('background-color', pageColor2);
     
     console.log('You are getting to the page color');
   
