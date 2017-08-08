@@ -48,7 +48,7 @@ $(document).ready(function(){
   
   if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
     
-    $target10.css('background-color', pagecolor2.css('background-color'))
+    $target10.css('background-color', (pagecolor2["background-color"]));
   
     inView('#testingbg_1').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
