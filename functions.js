@@ -62,6 +62,42 @@ $(document).ready(function(){
   		$target1.css('background-color', ('transparent'));
  });
     
+    inView('#testingbg_3').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target3.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_3').on('exit', function(el){
+  		$target3.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_5').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target5.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_5').on('exit', function(el){
+  		$target5.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_7').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target7.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_7').on('exit', function(el){
+  		$target7.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_9').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target9.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_9').on('exit', function(el){
+  		$target9.css('background-color', ('transparent'));
+ });
+    
     console.log('You are getting to the page2 color');
     
   } else if (window.location.pathname == "/case-study-vegas-pro-companion") {
