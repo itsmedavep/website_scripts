@@ -50,7 +50,7 @@ $(document).ready(function(){
     
     $target10.css('background-color', (pagecolor2["background-color"]));
     
-    console.log(You are getting to the page color);
+    console.log('You are getting to the page color');
   
     
     /*
