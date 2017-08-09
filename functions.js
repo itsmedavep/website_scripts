@@ -39,11 +39,11 @@ $(document).ready(function(){
   var $target10 = $('.wrapper');
   
   // Yellow BG
-  var pagecolor1 = {'color' : '#f7e610', 'background-color': '#f7e610'};
+  // var pagecolor1 = {'color' : '#f7e610', 'background-color': '#f7e610'};
   // Orange BG
-  var pagecolor2 = {'color' : '#f15a29', 'background-color': '#f15a29'};
+  // var pagecolor2 = {'color' : '#f15a29', 'background-color': '#f15a29'};
   // Blue BG
-  var pagecolor3 = {'color' : '#38a4dd', 'background-color': '#38a4dd'};
+  // var pagecolor3 = {'color' : '#38a4dd', 'background-color': '#38a4dd'};
   
   
   if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
@@ -154,6 +154,110 @@ $(document).ready(function(){
     
     console.log('You are getting to the page1 color');
   
+  } else if (window.location.pathname == "/case-study-artifacts-deliverables") {
+    
+    var pagecolor4 = "#65499d";
+    $target10.css('background-color', pagecolor4);
+    
+    inView('#testingbg_1').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target1.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_1').on('exit', function(el){
+  		$target1.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_3').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target3.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_3').on('exit', function(el){
+  		$target3.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_5').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target5.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_5').on('exit', function(el){
+  		$target5.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_7').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target7.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_7').on('exit', function(el){
+  		$target7.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_9').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target9.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_9').on('exit', function(el){
+  		$target9.css('background-color', ('transparent'));
+ });
+    
+    console.log('You are getting to the page2 color');
+    
+  } else if (window.location.pathname == "/case-study-vegas-pro-companion") {
+  
+    // Yellow BG
+    var pagecolor1 = "#f7e610";
+    
+    $target10.css('background-color', pagecolor1);
+    
+    inView('#testingbg_1').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target1.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_1').on('exit', function(el){
+  		$target1.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_3').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target3.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_3').on('exit', function(el){
+  		$target3.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_5').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target5.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_5').on('exit', function(el){
+  		$target5.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_7').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target7.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_7').on('exit', function(el){
+  		$target7.css('background-color', ('transparent'));
+ });
+    
+    inView('#testingbg_9').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target9.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_9').on('exit', function(el){
+  		$target9.css('background-color', ('transparent'));
+ });
+    
   } else {
   
      // Blue BG
