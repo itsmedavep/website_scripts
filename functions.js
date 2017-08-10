@@ -62,7 +62,7 @@ $(document).ready(function(){
     // Yellow BG
     //var pagecolor1 = "#f7e610";
     
-    $target10.css('background-color', (''#ffffff));
+    $target10.css('background-color', ('#ffffff'));
     console.log('You are getting to the process (White) color');
   
   } else if (window.location.pathname == "/case-study-artifacts-deliverables") {
@@ -77,7 +77,7 @@ $(document).ready(function(){
     // var pagecolor1 = "#f7e610";
     
     $target10.css('background-color', pagecolor1);
-    console.log('You are getting to the page1 (Blue) color');
+    console.log('You are getting to the page1 (Yellow) color');
     
     } else  if (window.location.pathname == "case-study-advicent-solutions-project-tesla") {
   
