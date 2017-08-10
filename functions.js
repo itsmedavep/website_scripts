@@ -39,17 +39,17 @@ $(document).ready(function(){
   var $target10 = $('.wrapper');
   
   // Yellow BG
-  // var pagecolor1 = {'color' : '#f7e610', 'background-color': '#f7e610'};
+  var pagecolor1 = {'background-color': '#f7e610'};
   // Orange BG
-  // var pagecolor2 = {'color' : '#f15a29', 'background-color': '#f15a29'};
+  var pagecolor2 = {'background-color': '#f15a29'};
   // Blue BG
-  // var pagecolor3 = {'color' : '#38a4dd', 'background-color': '#38a4dd'};
+  var pagecolor3 = {'background-color': '#38a4dd'};
   
   
   if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
     
     // Orange BG
-    var pagecolor2 = "#f15a29";
+    //var pagecolor2 = "#f15a29";
     
     $target10.css('background-color', pagecolor2);
     
