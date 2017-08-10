@@ -44,32 +44,32 @@ $(document).ready(function(){
   var pagecolor2 = "#f15a29";
   // Blue BG
   var pagecolor3 = "#38a4dd";
-  // BG
-  var pagecolor4 = "65499d";
+  // Purple BG
+  var pagecolor4 = "#65499d";
   
   
-  
+  //Conditional to set bg color on each page. 
   if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
     
     // Orange BG
     //var pagecolor2 = "#f15a29";
     
     $target10.css('background-color', ("pagecolor2"));
-    console.log('You are getting to the page2 color');
+    console.log('You are getting to the page2 (Orange) color');
     
-  } else if (window.location.pathname == "/case-study-vegas-pro-companion") {
+  } else if (window.location.pathname == "/process") {
   
     // Yellow BG
     //var pagecolor1 = "#f7e610";
     
-    $target10.css('background-color', pagecolor1);
-    console.log('You are getting to the page1 color');
+    $target10.css('background-color', pagecolor3);
+    console.log('You are getting to the page1 (Yellow) color');
   
   } else if (window.location.pathname == "/case-study-artifacts-deliverables") {
     
     //var pagecolor4 = "#65499d";
     $target10.css('background-color', pagecolor4);
-    console.log('You are getting to the page4 color');
+    console.log('You are getting to the page4 (Purple) color');
     
   } else if (window.location.pathname == "/case-study-vegas-pro-companion") {
   
@@ -77,19 +77,24 @@ $(document).ready(function(){
     // var pagecolor1 = "#f7e610";
     
     $target10.css('background-color', pagecolor1);
-    console.log('You are getting to the page1 color');
+    console.log('You are getting to the page1 (Yellow) color');
     
-    
-    
-  } else {
+    } else  if (window.location.pathname == "case-study-advicent-solutions-project-tesla") {
   
      // Blue BG
-    var pagecolor3 = "#38a4dd";
+    //var pagecolor3 = "#38a4dd";
     
     $target10.css('background-color', pagecolor3);
-    console.log('You are getting to the page3 color');
+    console.log('You are getting to the page3 (Blue) color');
+  } else {
+  
+    $target10.css('background-color', ('#ffffff'));
+    console.log('You are getting to everything else (White) color');
+    
   }
   
+  
+  // Start of changing bg color code
   inView('#testingbg_1').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
   		$target1.css('background-color', color);
