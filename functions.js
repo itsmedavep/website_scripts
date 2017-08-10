@@ -86,12 +86,7 @@ $(document).ready(function(){
     
     $target10.css('background-color', pagecolor3);
     console.log('You are getting to the page3 (Blue) color');
-  } else {
-  
-    $target10.css('background-color', ('#ffffff'));
-    console.log('You are getting to everything else (White) color');
-    
-  }
+  } 
   
   
   // Start of changing bg color code
