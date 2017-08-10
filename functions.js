@@ -54,7 +54,7 @@ $(document).ready(function(){
     // Orange BG
     //var pagecolor2 = "#f15a29";
     
-    $target10.css('background-color', ("pagecolor2"));
+    $target10.css('background-color', pagecolor2);
     console.log('You are getting to the page2 (Orange) color');
     
   } else if (window.location.pathname == "/process") {
@@ -68,7 +68,7 @@ $(document).ready(function(){
   } else if (window.location.pathname == "/case-study-artifacts-deliverables") {
     
     //var pagecolor4 = "#65499d";
-    $target10.css('background-color', ("pagecolor4"));
+    $target10.css('background-color', pagecolor4);
     console.log('You are getting to the page4 (Purple) color');
     
   } else if (window.location.pathname == "/case-study-vegas-pro-companion") {
@@ -76,7 +76,7 @@ $(document).ready(function(){
     // Yellow BG
     // var pagecolor1 = "#f7e610";
     
-    $target10.css('background-color', ("pagecolor1"));
+    $target10.css('background-color', pagecolor1);
     console.log('You are getting to the page1 (Yellow) color');
     
     } else  if (window.location.pathname == "/case-study-advicent-solutions-project-tesla") {
@@ -84,7 +84,7 @@ $(document).ready(function(){
      // Blue BG
     //var pagecolor3 = "#38a4dd";
     
-    $target10.css('background-color', ("pagecolor3"));
+    $target10.css('background-color', pagecolor3);
     console.log('You are getting to the page3 (Blue) color');
   } 
   
