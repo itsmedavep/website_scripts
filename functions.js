@@ -41,7 +41,7 @@ $(document).ready(function(){
   // Yellow BG
   var pagecolor1 = {'background-color': '#f7e610'};
   // Orange BG
-  var pagecolor2 = {'background-color': '#f15a29'};
+  var pagecolor2 = "#f15a29";
   // Blue BG
   var pagecolor3 = {'background-color': '#38a4dd'};
   
