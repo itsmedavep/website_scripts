@@ -79,7 +79,7 @@ $(document).ready(function(){
     $target10.css('background-color', pagecolor1);
     console.log('You are getting to the page1 (Yellow) color');
     
-    } else  if (window.location.pathname == "case-study-advicent-solutions-project-tesla") {
+    } else  if (window.location.pathname == "/case-study-advicent-solutions-project-tesla") {
   
      // Blue BG
     //var pagecolor3 = "#38a4dd";
