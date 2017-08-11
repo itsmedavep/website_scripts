@@ -107,6 +107,15 @@ $(document).ready(function(){
   inView('#testingbg_3').on('exit', function(el){
   		$target3.css('background-color', ('transparent'));
  });
+  
+  inView('#testingbg_4').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target4.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_4').on('exit', function(el){
+  		$target4.css('background-color', ('transparent'));
+ });
     
     inView('#testingbg_5').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
