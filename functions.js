@@ -136,8 +136,7 @@ $(document).ready(function(){
  });
     
     inView('#testingbg_7').on('enter', function(el){
-  		var color = $(el).attr('data-background-color');
-  		$target7.css('background-color', color);
+  		$target7.css('background-color', ('transparent'));
  }); 
   
   inView('#testingbg_7').on('exit', function(el){
