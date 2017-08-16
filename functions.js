@@ -125,6 +125,15 @@ $(document).ready(function(){
   inView('#testingbg_5').on('exit', function(el){
   		$target5.css('background-color', ('transparent'));
  });
+  
+  inView('#testingbg_6').on('enter', function(el){
+  		var color = $(el).attr('data-background-color');
+  		$target6.css('background-color', color);
+ }); 
+  
+  inView('#testingbg_6').on('exit', function(el){
+  		$target6.css('background-color', ('transparent'));
+ });
     
     inView('#testingbg_7').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
