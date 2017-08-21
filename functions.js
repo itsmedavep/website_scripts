@@ -93,6 +93,12 @@ inView('section').on('enter', function(el){
   $target10.css('background-color', color );
 });
   
+  inView('section').on('exit', function(el) {
+  
+    $target10.css('backbround-color', '#ffffff')
+  
+  })
+  
   /*
   // Start of changing bg color code
   inView('#testingbg_1').on('enter', function(el){
