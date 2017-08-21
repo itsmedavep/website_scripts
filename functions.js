@@ -88,7 +88,12 @@ $(document).ready(function(){
     console.log('You are getting to the page3 (Blue) color');
   } 
   
+inView('.section').on('enter', function(el){
+  var color = $(el).attr('data-background-color');
+  $target10.css('background-color', color );
+});
   
+  /*
   // Start of changing bg color code
   inView('#testingbg_1').on('enter', function(el){
   		var color = $(el).attr('data-background-color');
@@ -160,6 +165,7 @@ $(document).ready(function(){
   inView('#testingbg_9').on('exit', function(el){
   		$target9.css('background-color', ('transparent'));
  });
+ */
   
 });
 
