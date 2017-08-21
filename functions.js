@@ -47,6 +47,7 @@ $(document).ready(function(){
   // Purple BG
   var pagecolor4 = "#65499d";
   
+  inView.offset(250);
   
   //Conditional to set bg color on each page. 
   if (window.location.pathname == "/case-study-sony-catalyst-editing-suite") {
