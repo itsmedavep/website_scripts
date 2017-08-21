@@ -88,7 +88,7 @@ $(document).ready(function(){
     console.log('You are getting to the page3 (Blue) color');
   } 
   
-inView('.section').on('enter', function(el){
+inView('section').on('enter', function(el){
   var color = $(el).attr('data-background-color');
   $target10.css('background-color', color );
 });
