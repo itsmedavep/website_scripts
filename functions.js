@@ -95,7 +95,7 @@ inView('section').on('enter', function(el){
   
   inView('section').on('exit', function(el) {
   
-    $target10.css('backbround-color', '#ffffff')
+    $target10.css('backbround-color', '#ffffff');
   
   });
   
