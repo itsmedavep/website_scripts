@@ -97,7 +97,7 @@ inView('section').on('enter', function(el){
   
     $target10.css('backbround-color', '#ffffff')
   
-  })
+  });
   
   /*
   // Start of changing bg color code
